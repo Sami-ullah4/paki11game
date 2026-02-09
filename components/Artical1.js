@@ -59,7 +59,7 @@ const Artical1 = () => {
         <h2 className="text-2xl font-bold text-[#0974C2] text-center py-9">
           List of Games in ZS777 Game
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           <ol className="space-y-3">
             <li className="flex items-center gap-3">
               <span className="w-8 h-8 bg-[#0974C2] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">

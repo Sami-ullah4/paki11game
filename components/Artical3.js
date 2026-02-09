@@ -1,6 +1,6 @@
 const Artical3 = () => {
   return (
-    <section className="px-28 py-10">
+    <section className="px-4 md:px-28 py-10">
       <h3 className="text-3xl font-bold text-[#0974C2] text-center py-9">
         Are the available payment methods safe?
       </h3>

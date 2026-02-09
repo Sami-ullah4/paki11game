@@ -17,7 +17,7 @@ export default function MobileMenu({ isOpen, onClose, navLinks }) {
         role="dialog"
         aria-modal="true"
         aria-label="Mobile navigation menu"
-        className="fixed top-20 left-4 right-4 z-50 md:hidden bg-black/95 border border-amber-500/30 rounded-2xl p-6 shadow-2xl"
+        className="fixed top-20 left-4 right-4 z-50 md:hidden bg-black/95 border  rounded-2xl p-6 shadow-2xl"
       >
         {/* Navigation Links */}
         <nav>
@@ -36,14 +36,12 @@ export default function MobileMenu({ isOpen, onClose, navLinks }) {
           </ul>
         </nav>
 
-        {/* Divider */}
-        <div className="my-5 border-t border-amber-500/20" />
 
         {/* CTA Button */}
         <Link
           href="/download"
           onClick={onClose}
-          className={` block w-full py-3 text-center rounded-xl bg-amber-600 text-black font-semibold hover:bg-amber-500 transition-colors`}
+          className={` block w-full py-3 text-center rounded-xl bg-gradient-to-r from-[#0B5BD7] to-[#133283] text-white font-semibold  transition-colors`}
         >
           Download App
         </Link>
