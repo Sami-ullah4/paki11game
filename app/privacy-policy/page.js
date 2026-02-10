@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-5xl mx-auto space-y-8">
         {/* Header */}
         <div className="text-center space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#0B6C39]">
             Privacy Policy
           </h1>
         </div>
@@ -42,12 +42,12 @@ const PrivacyPolicy = () => {
 
           {/* Interpretation & Definitions */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Interpretation and Definitions
             </h2>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Interpretation
               </h3>
               <p>
@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Definitions
               </h3>
               <p>For the purposes of this Privacy Policy:</p>
@@ -149,7 +149,7 @@ const PrivacyPolicy = () => {
                       href="https://paki11game.com.pk"
                       rel="external nofollow noopener"
                       target="_blank"
-                      className="text-[#0974C2] hover:text-[#065a94] underline"
+                      className="text-[#0B6C39] hover:text-[#0B6C39] underline"
                     >
                       paki11game.com.pk
                     </a>
@@ -170,16 +170,16 @@ const PrivacyPolicy = () => {
 
           {/* Collecting & Using Data */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Collecting and Using Your Personal Data
             </h2>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Types of Data Collected
               </h3>
 
-              <h4 className="text-lg font-semibold text-[#0974C2]">
+              <h4 className="text-lg font-semibold text-[#0B6C39]">
                 Personal Data
               </h4>
               <p>
@@ -189,7 +189,7 @@ const PrivacyPolicy = () => {
                 include, but is not limited to:
               </p>
 
-              <h4 className="text-lg font-semibold text-[#0974C2]">
+              <h4 className="text-lg font-semibold text-[#0B6C39]">
                 Usage Data
               </h4>
               <p>
@@ -217,7 +217,7 @@ const PrivacyPolicy = () => {
                 through a mobile device.
               </p>
 
-              <h4 className="text-lg font-semibold text-[#0974C2]">
+              <h4 className="text-lg font-semibold text-[#0B6C39]">
                 Tracking Technologies and Cookies
               </h4>
               <p>
@@ -318,7 +318,7 @@ const PrivacyPolicy = () => {
 
           {/* Use of Personal Data */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Use of Your Personal Data
             </h3>
             <p>The Company may use Personal Data for the following purposes:</p>
@@ -435,7 +435,7 @@ const PrivacyPolicy = () => {
 
           {/* Retention */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Retention of Your Personal Data
             </h3>
             <p>
@@ -540,7 +540,7 @@ const PrivacyPolicy = () => {
 
           {/* Transfer */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Transfer of Your Personal Data
             </h3>
             <p>
@@ -567,7 +567,7 @@ const PrivacyPolicy = () => {
 
           {/* Delete Personal Data */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Delete Your Personal Data
             </h3>
             <p>
@@ -594,11 +594,11 @@ const PrivacyPolicy = () => {
 
           {/* Disclosure */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Disclosure of Your Personal Data
             </h3>
 
-            <h4 className="text-lg font-semibold text-[#0974C2]">
+            <h4 className="text-lg font-semibold text-[#0B6C39]">
               Business Transactions
             </h4>
             <p>
@@ -608,7 +608,7 @@ const PrivacyPolicy = () => {
               different Privacy Policy.
             </p>
 
-            <h4 className="text-lg font-semibold text-[#0974C2]">
+            <h4 className="text-lg font-semibold text-[#0B6C39]">
               Law enforcement
             </h4>
             <p>
@@ -618,7 +618,7 @@ const PrivacyPolicy = () => {
               a government agency).
             </p>
 
-            <h4 className="text-lg font-semibold text-[#0974C2]">
+            <h4 className="text-lg font-semibold text-[#0B6C39]">
               Other legal requirements
             </h4>
             <p>
@@ -642,7 +642,7 @@ const PrivacyPolicy = () => {
 
           {/* Security */}
           <section className="space-y-4">
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Security of Your Personal Data
             </h3>
             <p>
@@ -656,7 +656,7 @@ const PrivacyPolicy = () => {
 
           {/* Detailed Processing Info */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Detailed Information on the Processing of Your Personal Data
             </h2>
             <p>
@@ -666,7 +666,7 @@ const PrivacyPolicy = () => {
               accordance with their Privacy Policies.
             </p>
 
-            <h3 className="text-xl font-semibold text-[#065a94]">
+            <h3 className="text-xl font-semibold text-[#0B6C39]">
               Usage, Performance and Miscellaneous
             </h3>
             <p>
@@ -677,7 +677,7 @@ const PrivacyPolicy = () => {
 
           {/* Children's Privacy */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Children&apos;s Privacy
             </h2>
             <p>
@@ -700,7 +700,7 @@ const PrivacyPolicy = () => {
 
           {/* Links to Other Websites */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Links to Other Websites
             </h2>
             <p>
@@ -718,7 +718,7 @@ const PrivacyPolicy = () => {
 
           {/* Changes to Policy */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Changes to this Privacy Policy
             </h2>
             <p>
@@ -739,7 +739,7 @@ const PrivacyPolicy = () => {
 
           {/* Contact */}
           <section className="space-y-3">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Contact Us
             </h2>
             <p>
@@ -751,7 +751,7 @@ const PrivacyPolicy = () => {
                 By email:{" "}
                 <a
                   href="mailto:pakmody1@gmail.com"
-                  className="text-[#0974C2] hover:text-[#065a94] underline"
+                  className="text-[#0974C2] hover:text-[#0B6C39] underline"
                 >
                   pakmody1@gmail.com{" "}
                 </a>

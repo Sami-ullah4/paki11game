@@ -22,7 +22,7 @@ const Disclaimer = () => {
         {/* Header */}
 
         <div className="text-center space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#0B6C39]">
             Disclaimer
           </h1>
         </div>
@@ -31,12 +31,12 @@ const Disclaimer = () => {
         <div className="space-y-8 text-lg leading-relaxed text-gray-800">
           {/* Interpretation & Definitions */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Interpretation and Definitions
             </h2>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Interpretation
               </h3>
               <p>
@@ -48,7 +48,7 @@ const Disclaimer = () => {
             </div>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Definitions
               </h3>
               <p>For the purposes of this Disclaimer:</p>
@@ -80,7 +80,7 @@ const Disclaimer = () => {
                       href="https://paki11game.com.pk"
                       rel="external nofollow noopener"
                       target="_blank"
-                      className="text-[#0974C2] hover:text-[#065a94] underline"
+                      className="text-[#0B6C39] hover:text-[#0B6C39] underline"
                     >
                       paki11game.com.pk
                     </a>
@@ -93,7 +93,7 @@ const Disclaimer = () => {
 
           {/* General Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Disclaimer
             </h2>
             <p>
@@ -121,7 +121,7 @@ const Disclaimer = () => {
 
           {/* External Links Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               External Links Disclaimer
             </h2>
             <p>
@@ -138,7 +138,7 @@ const Disclaimer = () => {
 
           {/* Errors and Omissions Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Errors and Omissions Disclaimer
             </h2>
             <p>
@@ -158,7 +158,7 @@ const Disclaimer = () => {
 
           {/* Fair Use Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Fair Use Disclaimer
             </h2>
             <p>
@@ -182,7 +182,7 @@ const Disclaimer = () => {
 
           {/* Views Expressed Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Views Expressed Disclaimer
             </h2>
             <p>
@@ -201,7 +201,7 @@ const Disclaimer = () => {
 
           {/* No Responsibility Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               No Responsibility Disclaimer
             </h2>
             <p>
@@ -221,7 +221,7 @@ const Disclaimer = () => {
 
           {/* Use at Your Own Risk Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               &quot;Use at Your Own Risk&quot; Disclaimer
             </h2>
             <p>
@@ -242,7 +242,7 @@ const Disclaimer = () => {
 
           {/* Contact */}
           <section className="space-y-3">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Contact Us
             </h2>
             <p>
@@ -254,7 +254,7 @@ const Disclaimer = () => {
                 By email:{" "}
                 <a
                   href="mailto:pakmody1@gmail.com"
-                  className="text-[#0974C2] hover:text-[#065a94] underline"
+                  className="text-[#0974C2] hover:text-[#0B6C39] underline"
                 >
                   pakmody1@gmail.com{" "}
                 </a>

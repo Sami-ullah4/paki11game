@@ -1,194 +1,115 @@
 import React from "react";
+import Image from "next/image";
 import { siteMetadata } from "../metadata";
-import Breadcrumbs from "@/lib/Breadcrumbs";
+import DownloadImage from "@/public/images/downloadImage.webp";
+
 export const metadata = {
   title: siteMetadata.downloadTitle,
   description:
     "Read the download of Paki11 Game. Learn about the limitations of liability and responsibilities when using our services.",
-
   alternates: {
     canonical: "/download",
   },
 };
 
 const Download = () => {
-  const breadcrumbs = [
-    { label: "Home", link: "/" },
-    { label: "Download" }, // No link = current page
-  ];
-
   return (
-    <section className="px-4 md:px-10 pt-8 pb-12">
-      <div className="max-w-3xl mx-auto space-y-10">
-        {/* Header */}
-        <Breadcrumbs items={breadcrumbs} />
+    <main>
+      {/* Hero Section */}
+      <section className="relative w-full h-[400px] md:h-[410px] flex items-center justify-center text-center overflow-hidden">
+        {/* Background Image */}
+        <Image
+          src={DownloadImage}
+          alt="Paki11 Game Download"
+          fill
+          priority
+          className="object-cover"
+        />
 
-        <header className="text-center space-y-3">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
-            Paki11 Game APK Download
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/70"></div>
+
+        {/* Hero Content */}
+        <header className="relative z-10 px-6 max-w-3xl">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
+            How to Download Paki11 Game APK on Android?
           </h1>
-          <p className="text-lg text-gray-700">
-            Follow the steps below to safely download and install the Paki11
-            Game on your Android device.
+          <p className="text-lg md:text-xl text-gray-200">
+            Downloading the Paki11 Game to your Android device is a smooth and
+            safe process when done correctly. Follow the steps below to install
+            the app without difficulty.
           </p>
         </header>
+      </section>
 
-        <main className="space-y-10 text-lg leading-relaxed text-gray-800">
-          {/* Quick Notes */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
-              Before You Start
-            </h2>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Supported devices: Android phones and tablets</li>
-              <li>Recommended Android version: 5.0 (Lollipop) or higher</li>
-              <li>Free storage required: At least 100 MB</li>
-              <li>Stable internet connection for download and login</li>
-            </ul>
-          </section>
-
-          {/* How to Download */}
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
-              How to Download Paki11 Game APK
-            </h2>
-
-            <article className="space-y-2">
-              <h3 className="text-xl font-semibold text-[#065a94]">
-                Step 1: Start the Download
-              </h3>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>Scroll to the top of this page.</li>
-                <li>Tap the “Download Now” button.</li>
+      {/* Main Content */}
+      <article className="px-4 md:px-10 pt-8 pb-12">
+        <div className="max-w-2xl mx-auto space-y-10">
+          <div className="space-y-10 text-lg leading-relaxed text-gray-800">
+            {/* Step-by-Step Guide */}
+            <section className="space-y-3">
+              <h2 className="text-3xl font-semibold text-[#0B6C39] py-4">
+                Step-by-Step Download Guide
+              </h2>
+              <ol className="list-disc pl-6 space-y-5">
                 <li>
-                  Confirm the download if your browser asks for permission.
+                  <strong>1. Open an Internet Browser</strong> Start by opening
+                  a browser on your mobile phone, such as Google Chrome.
                 </li>
+                <li>
+                  <strong>2. Search for the App</strong>Type Paki11 Game APKinto
+                  the search bar and press search.
+                </li>
+                <li>
+                  <strong>3. Visit the Official Website</strong>Open the
+                  official Paki11 Game website to ensure you are downloading the
+                  original and secure version.
+                </li>
+                <li>
+                  <strong>4. Tap the Download Button</strong>On the homepage,
+                  locate and click the Download Paki11 Game button.
+                </li>
+                <li>
+                  <strong>5. Wait for the APK File</strong> The APK file will
+                  begin downloading automatically. Please wait until the
+                  download is complete.
+                </li>
+                <li>
+                  <strong>6. Allow Installation Permission</strong> If your
+                  phone shows a security warning, go to: Settings → Security →
+                  Install Unknown Apps → Allow Permission
+                </li>
+                <li>
+                  <strong>7. Install the Application</strong>Open your Downloads
+                  folder, tap the Paki11 APK file, then press Install.
+                </li>
+                <li>
+                  <strong>8. Launch the Game App</strong>Once installation is
+                  complete, open the app from your mobile screen.
+                </li>
+                <li>
+                  <strong>9. Create an Account or Log In</strong>9. Create an
+                  Account or Log In
+                </li>
+              </ol>
+            </section>
+
+            {/* Helpful Tips */}
+            <section>
+              <h2 className="text-2xl font-semibold text-[#0B6C39] py-4">
+                Helpful Download Tips
+              </h2>
+              <ul className="list-disc pl-6 space-y-5">
+                <li>Always download the app from the official source.</li>
+                <li>Maintain a stable internet connection.</li>
+                <li>Ensure your device has sufficient storage space.</li>
+                <li>Enable required permissions for smooth performance.</li>
               </ul>
-            </article>
-
-            <article className="space-y-2">
-              <h3 className="text-xl font-semibold text-[#065a94]">
-                Step 2: Allow Installation from Unknown Sources
-              </h3>
-              <p>
-                Because Paki11 is installed via APK, you may need to allow
-                installations from unknown sources:
-              </p>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>
-                  Open your phone&apos;s <strong>Settings</strong>.
-                </li>
-                <li>
-                  Go to <strong>Security</strong> or <strong>Privacy</strong>.
-                </li>
-                <li>
-                  Find and enable{" "}
-                  <strong>&quot;Install from Unknown Sources&quot;</strong> or{" "}
-                  <strong>&quot;Allow from this source&quot;</strong> for your
-                  browser or file manager.
-                </li>
-              </ul>
-            </article>
-
-            <article className="space-y-2">
-              <h3 className="text-xl font-semibold text-[#065a94]">
-                Step 3: Install the Paki11 Game
-              </h3>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>
-                  Open your <strong>Downloads</strong> folder or Files app.
-                </li>
-                <li>
-                  Locate the downloaded <strong>Paki11.apk</strong> file.
-                </li>
-                <li>
-                  Tap the file and select <strong>Install</strong>.
-                </li>
-                <li>Wait a few seconds until the installation is complete.</li>
-              </ul>
-            </article>
-
-            <article className="space-y-2">
-              <h3 className="text-xl font-semibold text-[#065a94]">
-                Step 4: Open the App &amp; Register
-              </h3>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>
-                  Find the <strong>Paki11</strong> icon on your home screen.
-                </li>
-                <li>
-                  Open the app and choose <strong>Register</strong> or{" "}
-                  <strong>Sign Up</strong>.
-                </li>
-                <li>
-                  Enter your phone number/username and create a secure password.
-                </li>
-                <li>Complete the captcha or verification if prompted.</li>
-                <li>Log in and start using the app.</li>
-              </ul>
-            </article>
-          </section>
-
-          {/* Related Information */}
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
-              Important Download &amp; Safety Information
-            </h2>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>
-                Only download the APK using the official download button on this
-                website.
-              </li>
-              <li>
-                After installation, you can disable{" "}
-                <strong>Unknown Sources</strong> again in your phone settings
-                for better security.
-              </li>
-              <li>
-                If you see a warning from your browser or Play Protect, choose{" "}
-                &quot;Install anyway&quot; only if you trust this source.
-              </li>
-              <li>
-                If the APK does not install, make sure:
-                <ul className="list-disc pl-6 mt-1 space-y-1">
-                  <li>Your storage is not full.</li>
-                  <li>You are using the latest downloaded APK file.</li>
-                  <li>
-                    Your Android version meets the minimum requirement (5.0+).
-                  </li>
-                </ul>
-              </li>
-              <li>
-                For best performance, keep your device updated and maintain a
-                stable internet connection.
-              </li>
-            </ul>
-          </section>
-
-          {/* Short FAQ-style note */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
-              Quick Questions
-            </h2>
-            <div>
-              <h3 className="text-lg font-semibold text-[#065a94]">
-                Is Paki11 available on iOS?
-              </h3>
-              <p>Currently, Paki11 is available for Android devices only.</p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-[#065a94]">
-                Is the APK free to download?
-              </h3>
-              <p>
-                Yes, downloading and installing the Paki11 APK is completely
-                free.
-              </p>
-            </div>
-          </section>
-        </main>
-      </div>
-    </section>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
   );
 };
 

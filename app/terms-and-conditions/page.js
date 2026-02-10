@@ -13,7 +13,7 @@ const page = () => {
       <div className="max-w-5xl mx-auto space-y-8">
         {/* Header */}
         <div className="text-center space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#0B6C39]">
             Terms and Conditions
           </h1>
         </div>
@@ -26,12 +26,12 @@ const page = () => {
 
           {/* Interpretation & Definitions */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Interpretation and Definitions
             </h2>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Interpretation
               </h3>
               <p>
@@ -43,7 +43,7 @@ const page = () => {
             </div>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Definitions
               </h3>
               <p>For the purposes of these Terms and Conditions:</p>
@@ -107,7 +107,7 @@ const page = () => {
                       href="https://paki11game.com.pk"
                       rel="external nofollow noopener"
                       target="_blank"
-                      className="text-[#0974C2] hover:text-[#065a94] underline"
+                      className="text-[#0B6C39] hover:text-[#0B6C39] underline"
                     >
                       paki11game.com.pk
                     </a>
@@ -128,7 +128,7 @@ const page = () => {
 
           {/* Acknowledgment */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Acknowledgment
             </h2>
             <p>
@@ -162,7 +162,7 @@ const page = () => {
 
           {/* Links to Other Websites */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Links to Other Websites
             </h2>
             <p>
@@ -186,7 +186,7 @@ const page = () => {
             </p>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Links from a Third-Party Social Media Service
               </h3>
               <p>
@@ -211,7 +211,7 @@ const page = () => {
 
           {/* Termination */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Termination
             </h2>
             <p>
@@ -227,7 +227,7 @@ const page = () => {
 
           {/* Limitation of Liability */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Limitation of Liability
             </h2>
             <p>
@@ -263,7 +263,7 @@ const page = () => {
 
           {/* AS IS Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer
             </h2>
             <p>
@@ -310,7 +310,7 @@ const page = () => {
 
           {/* Governing Law */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Governing Law
             </h2>
             <p>
@@ -323,7 +323,7 @@ const page = () => {
 
           {/* Disputes Resolution */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Disputes Resolution
             </h2>
             <p>
@@ -335,7 +335,7 @@ const page = () => {
 
           {/* EU Users */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               For European Union (EU) Users
             </h2>
             <p>
@@ -347,7 +347,7 @@ const page = () => {
 
           {/* US Legal Compliance */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               United States Legal Compliance
             </h2>
             <p>
@@ -362,12 +362,12 @@ const page = () => {
 
           {/* Severability and Waiver */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Severability and Waiver
             </h2>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">
+              <h3 className="text-xl font-semibold text-[#0B6C39]">
                 Severability
               </h3>
               <p>
@@ -380,7 +380,7 @@ const page = () => {
             </div>
 
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold text-[#065a94]">Waiver</h3>
+              <h3 className="text-xl font-semibold text-[#0B6C39]">Waiver</h3>
               <p>
                 Except as provided herein, the failure to exercise a right or to
                 require performance of an obligation under these Terms shall not
@@ -393,7 +393,7 @@ const page = () => {
 
           {/* Translation Interpretation */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Translation Interpretation
             </h2>
             <p>
@@ -405,7 +405,7 @@ const page = () => {
 
           {/* Changes to Terms */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Changes to These Terms and Conditions
             </h2>
             <p>
@@ -425,7 +425,7 @@ const page = () => {
 
           {/* Contact Us */}
           <section className="space-y-3">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">
+            <h2 className="text-2xl font-semibold text-[#0B6C39]">
               Contact Us
             </h2>
             <p>
@@ -437,7 +437,7 @@ const page = () => {
                 By email:{" "}
                 <a
                   href="mailto:pakmody1@gmail.com"
-                  className="text-[#0974C2] hover:text-[#065a94] underline"
+                  className="text-[#0974C2] hover:text-[#0B6C39] underline"
                 >
                   pakmody1@gmail.com{" "}
                 </a>
