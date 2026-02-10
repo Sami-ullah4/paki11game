@@ -11,7 +11,7 @@ const Footer = () => {
         {/* BRAND */}
         <div className="space-y-4 md:w-1/3">
           <h3 className=" text-2xl font-bold text-white">
-            ZS777
+            PAKi11
           </h3>
           <p className="  text-sm leading-relaxed">
             DK999 is a modern gaming platform providing secure access to premium

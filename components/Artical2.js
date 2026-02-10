@@ -3,7 +3,7 @@ const Artical2 = () => {
     <section className="px-4 md:px-10">
       <div className=" px-4 md:px-20">
         <h2 className="text-3xl font-bold text-[#0974C2] text-center py-9">
-          How to Login an Account on ZS777 Game APP?
+          How to Login an Account on PAKi11 Game APP?
         </h2>
 
         <ul className="space-y-3">
@@ -34,7 +34,7 @@ const Artical2 = () => {
       {/*  */}
       <div className="px-4 md:px-20">
         <h2 className="text-3xl font-bold text-[#0974C2] text-center py-9">
-          How to Withdraw and Deposit money on the ZS777?
+          How to Withdraw and Deposit money on the PAKi11?
         </h2>
         <div className="md:flex">
           <div className="flex-1/2">

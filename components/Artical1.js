@@ -1,21 +1,23 @@
 import Features from "@/contentData/Features";
+import dynamic from "next/dynamic";
+const Carousel = dynamic(() => import("./carousel"));
 const data = Features();
 const Artical1 = () => {
   return (
     <section className="px-4 md:px-10 space-y-8 pt-8">
-      <div className="space-y-3 ">
+      <div className="space-y-3 md:px-20">
         <h2 className="text-2xl font-bold text-[#0974C2] text-center py-4">
-          What is the ZS777 Game?
+          What is the PAKi11 Game?
         </h2>
         <p className="text-lg">
-          ZS777 Game is the latest APK game launched in Pakistan in 2026,
+          PAKi11 Game is the latest APK game launched in Pakistan in 2026,
           allowing users to earn thousands of rupees. It is designed for Android
           and iOS devices. It offers multiple ways to earn money and withdraw
           funds via secure payment methods. The game supports JazzCash,
           EasyPasia, and Bank Transfer for transactions.
         </p>
         <p className="text-lg">
-          ZS777 Pakistan offers unlimited bonuses and rewards, including free
+          PAKi11 Pakistan offers unlimited bonuses and rewards, including free
           spins, a welcome bonus, monthly and weekly bonuses, a referral bonus,
           and many more. Users need to play regularly to collect these bonuses
           and rewards. Additionally, you can earn through the referral system.
@@ -28,7 +30,7 @@ const Artical1 = () => {
       {/*  */}
       <div className="space-y-3">
         <h2 className="text-2xl font-bold text-[#0974C2] text-center py-4">
-          Features of the ZS777 Game APK
+          Features of the PAKi11 Game APK
         </h2>
         {/* grid shown here */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
@@ -55,9 +57,11 @@ const Artical1 = () => {
         </div>
       </div>
       {/*  */}
+      <Carousel />
+
       <div className="space-y-3 md:px-20 px-4">
         <h2 className="text-2xl font-bold text-[#0974C2] text-center py-9">
-          List of Games in ZS777 Game
+          List of Games in PAKi11 Game
         </h2>
         <div className="grid grid-cols-2 gap-4">
           <ol className="space-y-3">
@@ -159,7 +163,7 @@ const Artical1 = () => {
       {/*  */}
       <div className="md:px-20 px-4">
         <h2 className="text-2xl font-bold text-[#0974C2] text-center py-9">
-          How to Download and Install the ZS777 Game APK?
+          How to Download and Install the PAKi11 Game APK?
         </h2>
         <ul className="space-y-3">
           <li className="flex items-start gap-3">

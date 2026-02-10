@@ -3,7 +3,7 @@ const Features = () => {
     {
       title: "Graphic System",
       description:
-        "The graphic system of the ZS777 Game Register is highly advanced, enabling users to easily view the game's dashboard.",
+        "The graphic system of the PAKi11 Game Register is highly advanced, enabling users to easily view the game's dashboard.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Features = () => {
     {
       title: "Simple Design",
       description:
-        "The design of the ZS777 Game download APK is very simple. The game is designed to be easily understood by both experts and new players.",
+        "The design of the PAKi11 Game download APK is very simple. The game is designed to be easily understood by both experts and new players.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Features = () => {
     {
       title: "Free to Download",
       discription:
-        "ZS777 The game is free to download. You have to visit the game's official website, click the download button, and start playing.",
+        " The game is free to download. You have to visit the game's official website, click the download button, and start playing.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Features = () => {
     {
       title: "24/7 Customer Support",
       discription:
-        "ZS777 Game Login's customer support is available 24/7. When you need help, they are there for you. Just message them, and they will resolve your issue.",
+        "PAKi11 Game Login's customer support is available 24/7. When you need help, they are there for you. Just message them, and they will resolve your issue.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Features = () => {
     {
       title: "Unlimited Bonuses and Rewards",
       discription:
-        "For those who want unlimited bonuses and rewards, ZS777 Game Pakistan is the best choice because it offers multiple free bonuses and rewards daily.",
+        "For those who want unlimited bonuses and rewards, PAKi11 Game Pakistan is the best choice because it offers multiple free bonuses and rewards daily.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Features = () => {
     {
       title: "Multiple Game Categories",
       discription:
-        "In ZS777 Download APK, offers multiple game categories, including Poker, Fortune, Aviator, Money Coming, and Cards. These games are easy to play and profitable.",
+        "In PAKi11 Download APK, offers multiple game categories, including Poker, Fortune, Aviator, Money Coming, and Cards. These games are easy to play and profitable.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ const Features = () => {
     {
       title: "Full Secure",
       discription:
-        "The ZS777 is a secure game that fully protects users' personal details. A 24-hour secure game provides users' personal data.",
+        "The PAKi11 is a secure game that fully protects users' personal details. A 24-hour secure game provides users' personal data.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

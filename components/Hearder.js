@@ -7,6 +7,7 @@ const MobileMenuButton = dynamic(() => import("./MobileMenuButton"));
 // Navigation links data
 const navLinks = [
   { href: "/", label: "Home" },
+  { href: "/download", label: "Download" },
   { href: "/login", label: "Login" },
 ];
 
@@ -19,7 +20,7 @@ const Header = () => {
           href="/"
           className={`font- text-xl font-bold text-white`}
         >
-          ZS777{" "}
+          {" "}
         </Link>
         <div className=" flex gap-4">
           {/* DESKTOP MENU */}
