@@ -1,13 +1,30 @@
+import Breadcrumbs from "@/lib/Breadcrumbs";
+
+export const metadata = {
+  title: "Disclaimer",
+  description:
+    "Read the Disclaimer of Paki11 Game. Learn about the limitations of liability and responsibilities when using our services.",
+
+  alternates: {
+    canonical: "/disclaimer",
+  },
+
+  authors: [{ name: "Paki11 Game Team" }],
+
+  publisher: "Paki11 Game",
+};
+
 const Disclaimer = () => {
+ 
   return (
     <section className="px-4 md:px-10 pt-8 pb-12">
       <div className="max-w-5xl mx-auto space-y-8">
         {/* Header */}
+
         <div className="text-center space-y-2">
           <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
             Disclaimer
           </h1>
-        
         </div>
 
         {/* Body */}
@@ -24,9 +41,9 @@ const Disclaimer = () => {
               </h3>
               <p>
                 The words whose initial letters are capitalized have meanings
-                defined under the following conditions. The following definitions
-                shall have the same meaning regardless of whether they appear in
-                singular or in plural.
+                defined under the following conditions. The following
+                definitions shall have the same meaning regardless of whether
+                they appear in singular or in plural.
               </p>
             </div>
 
@@ -76,10 +93,12 @@ const Disclaimer = () => {
 
           {/* General Disclaimer */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-[#0974C2]">Disclaimer</h2>
+            <h2 className="text-2xl font-semibold text-[#0974C2]">
+              Disclaimer
+            </h2>
             <p>
-              The information contained on the Service is for general information
-              purposes only.
+              The information contained on the Service is for general
+              information purposes only.
             </p>
             <p>
               The Company assumes no responsibility for errors or omissions in
@@ -95,8 +114,8 @@ const Disclaimer = () => {
               Service at any time without prior notice.
             </p>
             <p>
-              The Company does not warrant that the Service is free of viruses or
-              other harmful components.
+              The Company does not warrant that the Service is free of viruses
+              or other harmful components.
             </p>
           </section>
 
@@ -149,9 +168,9 @@ const Disclaimer = () => {
               reporting, teaching, scholarship, or research.
             </p>
             <p>
-              The Company believes this constitutes a &quot;fair use&quot; of any
-              such copyrighted material as provided for in section 107 of the
-              United States Copyright law (or equivalent provisions under
+              The Company believes this constitutes a &quot;fair use&quot; of
+              any such copyrighted material as provided for in section 107 of
+              the United States Copyright law (or equivalent provisions under
               applicable law).
             </p>
             <p>
@@ -226,15 +245,18 @@ const Disclaimer = () => {
             <h2 className="text-2xl font-semibold text-[#0974C2]">
               Contact Us
             </h2>
-            <p>If you have any questions about this Disclaimer, You can contact Us:</p>
+            <p>
+              If you have any questions about this Disclaimer, You can contact
+              Us:
+            </p>
             <ul className="list-disc pl-6">
               <li>
                 By email:{" "}
                 <a
-                  href="mailto:samiullah4kl@mail.com"
+                  href="mailto:pakmody1@gmail.com"
                   className="text-[#0974C2] hover:text-[#065a94] underline"
                 >
-                  samiullah4kl@mail.com
+                  pakmody1@gmail.com{" "}
                 </a>
               </li>
             </ul>

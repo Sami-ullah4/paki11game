@@ -1,60 +1,60 @@
 // app/metadata.js - Centralized SEO Metadata (Home & Download Pages Only)
 export const siteMetadata = {
   // ==================== GLOBAL SITE INFO ====================
-  siteName: "DK999 Game",
-  siteUrl: "https://dk999apk.com",
-  author: "DK999 Team",
+  siteName: "PAKi11 Game",
+  siteUrl: "https://paki11game.com.pk",
+  author: "Paki11 Team",
   locale: "en_US",
   language: "en",
 
   // ==================== DEFAULT/FALLBACK META ====================
-  defaultTitle: "DK999 Game Download (Official App) latest Version For Android",
+  defaultTitle:
+    "Paki11 Game Download (Official App) latest Version For Android",
   defaultDescription:
-    "Download DK999 Game APK official latest version for Android & iOS. Play exciting casino games, slots, card games & earn real money in Pakistan. Safe & secure platform with instant withdrawals.",
-  defaultOgImage: "https://dk999apk.com/DK999.webp",
+    "Download Paki11 Game APK official latest version for Android & iOS. Play exciting casino games, slots, card games & earn real money in Pakistan. Safe & secure platform with instant withdrawals.",
+  defaultOgImage: "https://paki11game.com.pk/Paki11.webp",
 
   // ==================== HOME PAGE SEO ====================
-  homeTitle:
-    "DK999 Game Download (Official App) latest Version For Android",
+  homeTitle: "Paki11 Game Download (Official App) latest Version For Android",
   homeDescription:
-    "Download DK999 Game APK official latest version 2025. Best earning app in Pakistan with slots, card games, live casino & sports betting. Get welcome bonus up to 500 PKR. Safe withdrawals via JazzCash & Easypaisa.",
+    "Download Paki11 Game APK official latest version 2025. Best earning app in Pakistan with slots, card games, live casino & sports betting. Get welcome bonus up to 500 PKR. Safe withdrawals via JazzCash & Easypaisa.",
   homeKeywords: [
-    "DK999 Game",
-    "DK999 APK download",
-    "DK999 Game Pakistan",
+    "Paki11 Game",
+    "Paki11 APK download",
+    "Paki11 Game Pakistan",
     "earning app Pakistan",
     "casino game Pakistan",
-    "DK999 latest version",
-    "DK999 official app",
+    "Paki11 latest version",
+    "Paki11 official app",
     "online earning app",
     "real money games Pakistan",
     "JazzCash withdrawal game",
   ],
-  homeOgImage: "https://dk999apk.com/DK999.webp",
+  homeOgImage: "https://paki11game.com.pk/Paki11.webp",
 
   // ==================== DOWNLOAD PAGE SEO ====================
   downloadTitle:
-    "Download DK999 Game APK v2.0 Free | Android & iOS (Official Link)",
+    "Download Paki11 Game APK v2.0 Free | Android & iOS (Official Link)",
   downloadDescription:
-    "Download DK999 Game APK v2.0 latest version free for Android & iOS. Step-by-step installation guide included. 100% safe, virus-free APK with fast download speed. Get 500 PKR welcome bonus!",
+    "Download Paki11 Game APK v2.0 latest version free for Android & iOS. Step-by-step installation guide included. 100% safe, virus-free APK with fast download speed. Get 500 PKR welcome bonus!",
   downloadKeywords: [
-    "DK999 APK download",
-    "DK999 Game download",
-    "DK999 latest APK",
-    "DK999 Android download",
-    "DK999 iOS download",
-    "DK999 APK free download",
-    "DK999 official download",
-    "DK999 v2.0 APK",
+    "Paki11 APK download",
+    "Paki11 Game download",
+    "Paki11 latest APK",
+    "Paki11 Android download",
+    "Paki11 iOS download",
+    "Paki11 APK free download",
+    "Paki11 official download",
+    "Paki11 v2.0 APK",
   ],
-  downloadOgImage: "https://dk999apk.com/DK999.webp",
+  downloadOgImage: "https://paki11game.com.pk/Paki11.webp",
 
   // ==================== GLOBAL KEYWORDS ====================
   keywords: [
-    "DK999",
-    "DK999 Game",
-    "DK999 APK",
-    "DK999 download",
+    "Paki11",
+    "Paki11 Game",
+    "Paki11 APK",
+    "Paki11 download",
     "online casino Pakistan",
     "earning app Pakistan",
     "real money games",
@@ -62,8 +62,8 @@ export const siteMetadata = {
     "slots Pakistan",
     "JazzCash games",
     "Easypaisa withdrawal",
-    "DK999 bonus",
-    "DK999 login",
-    "DK999 register",
+    "Paki11 bonus",
+    "Paki11 login",
+    "Paki11 register",
   ],
 };

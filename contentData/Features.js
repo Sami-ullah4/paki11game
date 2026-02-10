@@ -7,7 +7,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -28,7 +28,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -49,7 +49,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -70,7 +70,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -91,7 +91,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -112,7 +112,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -133,7 +133,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -154,7 +154,7 @@ const Features = () => {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-12 h-12 text-[#0886D5]"
+          className="w-12 h-12 text-[#1E683F]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

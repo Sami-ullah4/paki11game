@@ -1,4 +1,16 @@
 import React from "react";
+export const metadata = {
+  title: "Privacy Policy",
+  description:
+    "Read the Privacy Policy of Paki11 Game. Learn how we collect, use, and protect your personal data when you use our services. Your privacy matters to us.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
+
+  authors: [{ name: "Paki11 Game Team" }],
+
+  publisher: "Paki11 Game",
+};
 
 const PrivacyPolicy = () => {
   return (
@@ -9,7 +21,6 @@ const PrivacyPolicy = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-[#0974C2]">
             Privacy Policy
           </h1>
-          
         </div>
 
         {/* Body */}
@@ -662,7 +673,6 @@ const PrivacyPolicy = () => {
               We may use third-party Service Providers to maintain and improve
               our Service.
             </p>
-            
           </section>
 
           {/* Children's Privacy */}
@@ -740,10 +750,10 @@ const PrivacyPolicy = () => {
               <li>
                 By email:{" "}
                 <a
-                  href="mailto:samiullah4kl@gmail.com"
+                  href="mailto:pakmody1@gmail.com"
                   className="text-[#0974C2] hover:text-[#065a94] underline"
                 >
-                  samiullah4kl@gmail.com
+                  pakmody1@gmail.com{" "}
                 </a>
               </li>
             </ul>

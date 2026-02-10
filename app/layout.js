@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
   title: {
     default: siteMetadata.defaultTitle,
-    template: `%s | ${siteMetadata.siteName}`,
+    template: `%s`,
   },
   description: siteMetadata.defaultDescription,
   keywords: siteMetadata.keywords,
@@ -30,6 +30,9 @@ export const metadata = {
       },
     ],
   },
+  authors: [{ name: "Paki11 Game Team" }],
+  publisher: "Paki11 Game",
+
   twitter: {
     card: "summary_large_image",
     title: siteMetadata.defaultTitle,

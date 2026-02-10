@@ -1,3 +1,12 @@
+export const metadata = {
+  title: "Terms and Conditions | paki11 game",
+  description:
+    "Read the Terms and Conditions of Paki11 Game. Learn about the rules and regulations for using our services.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
+};
+
 const page = () => {
   return (
     <section className="px-4 md:px-10 pt-8 pb-12">
@@ -27,9 +36,9 @@ const page = () => {
               </h3>
               <p>
                 The words whose initial letters are capitalized have meanings
-                defined under the following conditions. The following definitions
-                shall have the same meaning regardless of whether they appear in
-                singular or in plural.
+                defined under the following conditions. The following
+                definitions shall have the same meaning regardless of whether
+                they appear in singular or in plural.
               </p>
             </div>
 
@@ -86,8 +95,8 @@ const page = () => {
                 <li>
                   <p>
                     <strong>Third-Party Social Media Service</strong> means any
-                    services or content (including data, information, products or
-                    services) provided by a third party that is displayed,
+                    services or content (including data, information, products
+                    or services) provided by a third party that is displayed,
                     included, made available, or linked to through the Service.
                   </p>
                 </li>
@@ -262,27 +271,27 @@ const page = () => {
               AVAILABLE&quot; and with all faults and defects without warranty
               of any kind. To the maximum extent permitted under applicable law,
               the Company, on its own behalf and on behalf of its Affiliates and
-              its and their respective licensors and service providers, expressly
-              disclaims all warranties, whether express, implied, statutory or
-              otherwise, with respect to the Service, including all implied
-              warranties of merchantability, fitness for a particular purpose,
-              title and non-infringement, and warranties that may arise out of
-              course of dealing, course of performance, usage or trade practice.
-              Without limitation to the foregoing, the Company provides no
-              warranty or undertaking, and makes no representation of any kind
-              that the Service will meet Your requirements, achieve any intended
-              results, be compatible or work with any other software,
-              applications, systems or services, operate without interruption,
-              meet any performance or reliability standards or be error free or
-              that any errors or defects can or will be corrected.
+              its and their respective licensors and service providers,
+              expressly disclaims all warranties, whether express, implied,
+              statutory or otherwise, with respect to the Service, including all
+              implied warranties of merchantability, fitness for a particular
+              purpose, title and non-infringement, and warranties that may arise
+              out of course of dealing, course of performance, usage or trade
+              practice. Without limitation to the foregoing, the Company
+              provides no warranty or undertaking, and makes no representation
+              of any kind that the Service will meet Your requirements, achieve
+              any intended results, be compatible or work with any other
+              software, applications, systems or services, operate without
+              interruption, meet any performance or reliability standards or be
+              error free or that any errors or defects can or will be corrected.
             </p>
             <p>
               Without limiting the foregoing, neither the Company nor any of the
-              company&apos;s provider makes any representation or warranty of any
-              kind, express or implied: (i) as to the operation or availability
-              of the Service, or the information, content, and materials or
-              products included thereon; (ii) that the Service will be
-              uninterrupted or error-free; (iii) as to the accuracy,
+              company&apos;s provider makes any representation or warranty of
+              any kind, express or implied: (i) as to the operation or
+              availability of the Service, or the information, content, and
+              materials or products included thereon; (ii) that the Service will
+              be uninterrupted or error-free; (iii) as to the accuracy,
               reliability, or currency of any information or content provided
               through the Service; or (iv) that the Service, its servers, the
               content, or e-mails sent from or on behalf of the Company are free
@@ -343,8 +352,8 @@ const page = () => {
             </h2>
             <p>
               You represent and warrant that (i) You are not located in a
-              country that is subject to the United States government embargo, or
-              that has been designated by the United States government as a
+              country that is subject to the United States government embargo,
+              or that has been designated by the United States government as a
               &quot;terrorist supporting&quot; country, and (ii) You are not
               listed on any United States government list of prohibited or
               restricted parties.
@@ -365,8 +374,8 @@ const page = () => {
                 If any provision of these Terms is held to be unenforceable or
                 invalid, such provision will be changed and interpreted to
                 accomplish the objectives of such provision to the greatest
-                extent possible under applicable law and the remaining provisions
-                will continue in full force and effect.
+                extent possible under applicable law and the remaining
+                provisions will continue in full force and effect.
               </p>
             </div>
 
@@ -376,8 +385,8 @@ const page = () => {
                 Except as provided herein, the failure to exercise a right or to
                 require performance of an obligation under these Terms shall not
                 affect a party&apos;s ability to exercise such right or require
-                such performance at any time thereafter nor shall the waiver of a
-                breach constitute a waiver of any subsequent breach.
+                such performance at any time thereafter nor shall the waiver of
+                a breach constitute a waiver of any subsequent breach.
               </p>
             </div>
           </section>
@@ -427,10 +436,10 @@ const page = () => {
               <li>
                 By email:{" "}
                 <a
-                  href="mailto:samiullah4kl@gmail.com"
+                  href="mailto:pakmody1@gmail.com"
                   className="text-[#0974C2] hover:text-[#065a94] underline"
                 >
-                  samiullah4kl@gmail.com
+                  pakmody1@gmail.com{" "}
                 </a>
               </li>
             </ul>

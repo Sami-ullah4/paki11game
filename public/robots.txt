@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+
+
+Sitemap: https://paki11game.com.pk/sitemap.xml
