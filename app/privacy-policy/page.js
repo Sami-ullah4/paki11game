@@ -1,15 +1,11 @@
 import React from "react";
 export const metadata = {
-  title: "Privacy Policy",
-  description:
-    "Read the Privacy Policy of Paki11 Game. Learn how we collect, use, and protect your personal data when you use our services. Your privacy matters to us.",
+  title: "Privacy Policy | Paki11 Game",
   alternates: {
     canonical: "/privacy-policy",
   },
 
-  authors: [{ name: "Paki11 Game Team" }],
 
-  publisher: "Paki11 Game",
 };
 
 const PrivacyPolicy = () => {

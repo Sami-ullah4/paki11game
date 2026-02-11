@@ -1,21 +1,12 @@
-import Breadcrumbs from "@/lib/Breadcrumbs";
-
 export const metadata = {
-  title: "Disclaimer",
-  description:
-    "Read the Disclaimer of Paki11 Game. Learn about the limitations of liability and responsibilities when using our services.",
+  title: "Disclaimer | Paki11 Game",
 
   alternates: {
     canonical: "/disclaimer",
   },
-
-  authors: [{ name: "Paki11 Game Team" }],
-
-  publisher: "Paki11 Game",
 };
 
 const Disclaimer = () => {
- 
   return (
     <section className="px-4 md:px-10 pt-8 pb-12">
       <div className="max-w-5xl mx-auto space-y-8">

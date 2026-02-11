@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className=" text-black bg-gray-100">
-      <div className=" mx-auto px-4 md:px-10 py-9 md:py-16 grid md:grid-cols-2 gap-12 items-center">
+    <section className=" text-black bg-gray-200">
+      <div className=" mx-auto px-4 md:px-10 py-9 md:py-12 grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-center tracking-wide bg-gradient-to-r from-[#24b75f] via-[#16a34a] to-[#0B6C39] bg-clip-text text-transparent">
@@ -20,23 +21,33 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="bg-gradient-to-r from-[#24b75f] to-[#0B6C39] text-white font-bold text-lg  py-2 rounded-lg  w-full">
+            <Link
+              href="/download"
+              className=" text-center bg-gradient-to-r from-[#24b75f] to-[#0B6C39] text-white font-bold text-lg py-2 rounded-lg w-full"
+            >
               Download PAKi11
-            </button>
+            </Link>
           </div>
         </div>
 
         {/* Right Image */}
-        <div className="relative">
-          <figure className="relative z-10">
+        <div className="relative space-y-5 ">
+          <figure className="relative z-10 ">
             <Image
               src="/image.png"
               alt="PAKi11 Game Interface"
               width={600}
               height={600}
-              className="w-full h-auto drop-shadow-2xl bg-cover"
+              className="w-full h-auto rounded-md"
+              priority
+              quality={75}
+              sizes="(max-width: 768px) 100vw, 50vw "
             />
           </figure>
+
+          <div className="hidden md:block border-2 border-amber-400  text-center ml-6 bg-gradient-to-r from-[#1d7f44] to-[#0B6C39] text-white font-bold text-lg py-2 rounded-lg">
+            ⭐⭐⭐⭐
+          </div>
         </div>
       </div>
     </section>

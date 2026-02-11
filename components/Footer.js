@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="bg-[#1E683F] text-gray-100 border-t border-amber-500/20 px-3 md:px-20 py-3"
+      className="bg-[#1E683F] text-gray-100 border-t border-amber-500/20 px-4 md:px-20 py-3"
       role="contentinfo"
       aria-label="Site footer"
     >
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="space-y-4 md:w-1/3">
           <h3 className=" text-2xl font-bold text-white">PAKi11</h3>
           <p className="  text-sm leading-relaxed">
-            DK999 is a modern gaming platform providing secure access to premium
+            Paki11 is a modern gaming platform providing secure access to premium
             experiences. Download and play responsibly.
           </p>
         </div>
@@ -81,7 +81,7 @@ const Footer = () => {
 
       {/* BOTTOM BAR */}
       <div className="  pt-6 border-t border-amber-500/10  text-center text-sm">
-        © {new Date().getFullYear()} DK999. All rights reserved.
+        © {new Date().getFullYear()} Paki11. All rights reserved.
       </div>
     </footer>
   );

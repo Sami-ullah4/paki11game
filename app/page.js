@@ -1,9 +1,10 @@
 import { homePageSchema } from "@/lib/schema/StructuredData";
 import { siteMetadata } from "./metadata";
 import Hero from "@/components/Hero";
-import Artical1 from "@/components/Artical1";
-import Artical2 from "@/components/Artical2";
-import Artical3 from "@/components/Artical3";
+import dynamic from "next/dynamic";
+const Artical1 = dynamic(() => import("@/components/Artical1"));
+const Artical2 = dynamic(() => import("@/components/Artical2"));
+const Artical3 = dynamic(() => import("@/components/Artical3"));
 
 // ✅ Dynamic metadata for the home page
 export async function generateMetadata() {

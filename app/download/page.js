@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { siteMetadata } from "../metadata";
 import DownloadImage from "@/public/images/downloadImage.webp";
+import Link from "next/link";
 
 export const metadata = {
   title: siteMetadata.downloadTitle,
@@ -30,7 +31,7 @@ const Download = () => {
         <div className="absolute inset-0 bg-black/70"></div>
 
         {/* Hero Content */}
-        <header className="relative z-10 px-6 max-w-3xl">
+        <header className="relative z-10 px-6 max-w-3xl space-y-3">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             How to Download Paki11 Game APK on Android?
           </h1>
@@ -39,6 +40,12 @@ const Download = () => {
             safe process when done correctly. Follow the steps below to install
             the app without difficulty.
           </p>
+          <Link
+              href="/download"
+              className="border-2 border-amber-400 text-center px-10 bg-gradient-to-r from-[#24b75f] to-[#0B6C39] text-white font-bold text-lg py-2 rounded-lg w-full"
+            >
+              Download PAKi11
+            </Link>
         </header>
       </section>
 

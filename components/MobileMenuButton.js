@@ -37,7 +37,7 @@ export default function MobileMenuButton({ navLinks }) {
       </button>
 
       {/* Mobile Menu */}
-      <MobileMenu isOpen={isOpen} onClose={closeMenu} navLinks={navLinks} />
+      <MobileMenu isOpen={isOpen} onClose={closeMenu} />
     </>
   );
 }

@@ -1,3 +1,10 @@
+export const metadata = {
+  title: "About | Paki11 Game",
+
+  alternates: {
+    canonical: "/About",
+  },
+};
 const About = () => {
   return (
     <main className="px-4 md:px-28 py-10">

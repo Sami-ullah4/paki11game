@@ -1,4 +1,4 @@
-const baseUrl = 'paki11game.com.pk';
+const baseUrl = 'https://paki11game.com.pk';
 
 export default function sitemap() {
   const now = new Date();

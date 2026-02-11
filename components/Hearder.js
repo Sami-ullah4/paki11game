@@ -4,10 +4,14 @@ import dynamic from "next/dynamic";
 const MobileMenuButton = dynamic(() => import("./MobileMenuButton"));
 
 const Header = () => {
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/download", label: "Download" },
+  ];
   return (
     <header className="sticky top-0 z-50 bg-[#1e683f] backdrop-blur-md border-b border-blue-500/20">
       <nav
-        className="px-4 sm:px-6 lg:px-24 h-16 flex items-center justify-between"
+        className="px-4 sm:px-6 lg:px-20 h-16 flex items-center justify-between"
         aria-label="Main navigation"
       >
         {/* logo */}
@@ -59,7 +63,7 @@ const Header = () => {
         </ul>
 
         {/* MOBILE MENU BUTTON */}
-        <MobileMenuButton />
+        <MobileMenuButton/>
       </nav>
     </header>
   );

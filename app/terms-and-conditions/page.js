@@ -1,7 +1,5 @@
 export const metadata = {
   title: "Terms and Conditions | paki11 game",
-  description:
-    "Read the Terms and Conditions of Paki11 Game. Learn about the rules and regulations for using our services.",
   alternates: {
     canonical: "/terms-and-conditions",
   },

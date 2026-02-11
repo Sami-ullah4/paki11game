@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Contact | Paki11 Game",
+  alternates: {
+    canonical: "/contact",
+  },
+};
 const Contact = () => {
   return (
     <main className="px-4 md:px-28 py-10">
@@ -15,9 +21,10 @@ const Contact = () => {
         </p>
 
         <p className="text-lg">
-          Our goal is to provide clear, helpful, and up-to-date information about
-          online games, APK downloads, bonuses, and guides for users in Pakistan.
-          Your feedback helps us improve our services and content quality.
+          Our goal is to provide clear, helpful, and up-to-date information
+          about online games, APK downloads, bonuses, and guides for users in
+          Pakistan. Your feedback helps us improve our services and content
+          quality.
         </p>
       </section>
 
@@ -69,9 +76,7 @@ const Contact = () => {
 
           <li className="flex items-start gap-3">
             <span className="w-3 h-3 bg-[#0B6C39] rounded-full mt-2"></span>
-            <span className="text-lg">
-              General questions or feedback
-            </span>
+            <span className="text-lg">General questions or feedback</span>
           </li>
         </ul>
 

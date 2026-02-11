@@ -6,7 +6,7 @@ const Artical1 = () => {
   return (
     <section className="px-4 md:px-10 space-y-8 pt-8">
       <div className="space-y-3 md:px-20">
-        <h2 className="text-2xl font-bold text-[#0B6C39] text-center py-4">
+        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-4">
           What is the PAKi11 Game?
         </h2>
         <p className="text-lg">
@@ -29,7 +29,7 @@ const Artical1 = () => {
       </div>
       {/*  */}
       <div className="space-y-3">
-        <h2 className="text-2xl font-bold text-[#0B6C39] text-center py-4">
+        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-4">
           Features of the PAKi11 Game APK
         </h2>
         {/* grid shown here */}
@@ -60,7 +60,7 @@ const Artical1 = () => {
       <Carousel />
 
       <div className="space-y-3 md:px-20 px-4">
-        <h2 className="text-2xl font-bold text-[#0B6C39] text-center py-9">
+        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-9">
           List of Games in PAKi11 Game
         </h2>
         <div className="grid grid-cols-2 gap-4">
@@ -162,7 +162,7 @@ const Artical1 = () => {
       </div>
       {/*  */}
       <div className="md:px-20 px-4">
-        <h2 className="text-2xl font-bold text-[#0B6C39] text-center py-9">
+        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-9">
           How to Download and Install the PAKi11 Game APK?
         </h2>
         <ul className="space-y-3">
