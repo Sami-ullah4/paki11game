@@ -1,5 +1,6 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const MobileMenuButton = dynamic(() => import("./MobileMenuButton"));
 
@@ -15,7 +16,14 @@ const Header = () => {
         aria-label="Main navigation"
       >
         {/* logo */}
-        <div className="">logo</div>
+        
+        <Image
+          src="/logo.avif"
+          alt="Logo"
+          width={50}
+          height={50}
+          className="w-40 "
+        />
         {/* DESKTOP NAVIGATION - DIRECT LINKS */}
         <ul className="hidden md:flex items-center gap-8 text-white text-xl font-semibold">
           <li>

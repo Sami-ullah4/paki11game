@@ -4,19 +4,19 @@ const Carousel = dynamic(() => import("./carousel"));
 const data = Features();
 const Artical1 = () => {
   return (
-    <section className="px-4 md:px-10 space-y-8 pt-8">
-      <div className="space-y-3 md:px-20">
-        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-4">
+    <section className="px-4 md:px-20 space-y-8 pt-8">
+      <div className="space-y-3 ">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#0B6C39] text-center py-6 md:py-9">
           What is the PAKi11 Game?
         </h2>
-        <p className="text-lg">
+        <p className=" md:text-lg">
           PAKi11 Game is the latest APK game launched in Pakistan in 2026,
           allowing users to earn thousands of rupees. It is designed for Android
           and iOS devices. It offers multiple ways to earn money and withdraw
           funds via secure payment methods. The game supports JazzCash,
           EasyPasia, and Bank Transfer for transactions.
         </p>
-        <p className="text-lg">
+        <p className=" md:text-lg">
           PAKi11 Pakistan offers unlimited bonuses and rewards, including free
           spins, a welcome bonus, monthly and weekly bonuses, a referral bonus,
           and many more. Users need to play regularly to collect these bonuses
@@ -29,7 +29,7 @@ const Artical1 = () => {
       </div>
       {/*  */}
       <div className="space-y-3">
-        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#0B6C39] text-center py-6 md:py-9">
           Features of the PAKi11 Game APK
         </h2>
         {/* grid shown here */}
@@ -59,56 +59,56 @@ const Artical1 = () => {
       {/*  */}
       <Carousel />
 
-      <div className="space-y-3 md:px-20 px-4">
-        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-9">
+      <div className="space-y-3 ">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#0B6C39] text-center py-6 md:py-9">
           List of Games in PAKi11 Game
         </h2>
         <div className="grid grid-cols-2 gap-4">
           <ol className="space-y-3">
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 1
               </span>
               <span className="text-lg">Poker</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 2
               </span>
               <span className="text-lg">Cards</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 3
               </span>
               <span className="text-lg">PG Slots</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 4
               </span>
               <span className="text-lg">Ludo</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 5
               </span>
               <span className="text-lg">Fortune</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 6
               </span>
               <span className="text-lg">Avaitor</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 7
               </span>
               <span className="text-lg">Fishing</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 8
               </span>
               <span className="text-lg">Slot Machines</span>
@@ -116,43 +116,43 @@ const Artical1 = () => {
           </ol>
           <ol className="space-y-3">
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 9
               </span>
               <span className="text-lg">Jili</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 10
               </span>
               <span className="text-lg">Sports</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 11
               </span>
               <span className="text-lg">Chicken Road</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 12
               </span>
               <span className="text-lg">Crazy777</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 13
               </span>
               <span className="text-lg">Piggy Bank</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 14
               </span>
               <span className="text-lg">Plinko</span>
             </li>
             <li className="flex items-center gap-3">
-              <span className="w-8 h-8 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+              <span className="md:w-8 md:h-8 h-6 w-6 bg-[#0B6C39] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                 15
               </span>
               <span className="text-lg">Crash</span>
@@ -161,8 +161,8 @@ const Artical1 = () => {
         </div>
       </div>
       {/*  */}
-      <div className="md:px-20 px-4">
-        <h2 className="text-3xl font-bold text-[#0B6C39] text-center py-9">
+      <div className="">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#0B6C39] text-center py-6 md:py-9">
           How to Download and Install the PAKi11 Game APK?
         </h2>
         <ul className="space-y-3">
