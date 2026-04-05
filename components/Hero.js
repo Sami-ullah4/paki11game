@@ -15,9 +15,12 @@ const Hero = () => {
             Online games are growing in popularity in Pakistan, providing a new
             earning opportunity for users. PAKi11 Game is one of them, offering
             new and advanced features such as colourful layouts, a simple UI,
-            advanced graphics, and local payment methods. PAKi11 App is an
-            online casino-style platform that offers a wide range of games, and
-            these games are highly profitable and easier to play.
+            advanced graphics, and local payment methods. PAKi11 and{" "}
+            <Link href="https://geelyslot.com.pk" className="font-bold">
+              geely slotes
+            </Link>{" "}
+            are an online casino-style platform that offers a wide range of
+            games, and these games are highly profitable and easier to play.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
