@@ -52,7 +52,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homePageSchema) }}
       />
       <Hero />
-        hello 
+        hello Chrome combines a minimal design with sophisticated technology to make the web faster, safer, and easier. Use one box for everything — type in the address bar and get suggestions for both search and web pages.
       <Artical1/>
       <Artical2/>
       <Artical3/>
