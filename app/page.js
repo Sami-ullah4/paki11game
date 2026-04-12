@@ -52,6 +52,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homePageSchema) }}
       />
       <Hero />
+        hello 
       <Artical1/>
       <Artical2/>
       <Artical3/>
