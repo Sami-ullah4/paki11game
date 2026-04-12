@@ -20,7 +20,7 @@ const Hero = () => {
               geely slotes
             </Link>{" "}
             are an online casino-style platform that offers a wide range of
-            games, and these games are highly profitable and easier to play.
+            games, and these games are highly profitable and easier to play. I also rafer <Link href="https://pkrsspin.com.pk">pkr spin</Link> game to play like pak11 game.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
