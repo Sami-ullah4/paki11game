@@ -15,7 +15,7 @@ const Hero = () => {
             Online games are growing in popularity in Pakistan, providing a new
             earning opportunity for users. PAKi11 Game is one of them, offering
             new and advanced features such as colourful layouts, a simple UI,
-            advanced graphics, and local payment methods. PAKi11 and{" "}
+            advanced graphics, and local payment methods, just like the {""}<Link href="https://clubpkvip.net/" className="font-bold"> club pkr</Link>. PAKi11 and{" "}
             <Link href="https://geelyslot.com.pk" className="font-bold">
               geely slotes
             </Link>{" "}
