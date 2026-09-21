@@ -16,9 +16,8 @@ const Hero = () => {
             earning opportunity for users. PAKi11 Game is one of them, offering
             new and advanced features such as colourful layouts, a simple UI,
             advanced graphics, and local payment methods, just like the {""}<Link href="https://clubpkvip.net/" className="font-bold"> club pkr</Link>. PAKi11 and{" "}
-            <Link href="https://geelyslot.com.pk" className="font-bold">
-              geely slotes
-            </Link>{" "}
+            <Link href="https://pkrslot.org" className="font-bold">
+PKR SLOTS            </Link>{" "}
             are an online casino-style platform that offers a wide range of
             games, and these games are highly profitable and easier to play. I also rafer <Link href="https://pkrsspin.com.pk">pkr spin</Link> game to play like pak11 game.
           </p>
